@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+#header-main {
+  text-align: center;
+  font-size: 36px;
+}
+
+#description-main {
+  text-align: center;
+}
+
+.recipes {
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.recipes-list {
+  transition: background-color 0.5s ease-in 100ms;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.recipes-list:hover {
+  background-color: black;
+  color: white;
+}
+
+.recipes-list a {
+  color: black;
+  transition: color 0.5s ease-in 100ms;
+}
+
+.recipes-list a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#first-item-list-main {
+  margin-top: 0px;
+}
